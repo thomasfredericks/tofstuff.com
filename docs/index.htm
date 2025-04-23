@@ -13,8 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tofstuff.css">
-    <link rel="stylesheet" href="glightbox/dist/css/glightbox.css" />
-    <script src="glightbox/dist/js/glightbox.min.js"></script>
+
 
 
 <body>
@@ -66,7 +65,7 @@
                                 <br><br>
                 </div>
 
-                <div id="lesquare" style="display: flex; flex-wrap: wrap;">
+                <div id="lesquare" class="thing">
                     <div class="instrument-left">
                         <img class="tableLeftImage" src="medias/le_square.png" alt="le SQUARE">
                     </div>
@@ -89,7 +88,7 @@
                 </div>
                 <br>
 
-                <div id="showdown" style="display: flex; flex-wrap: wrap;">
+                <div id="showdown" class="thing">
                    
                     <div class="instrument-left">
                         <img class="tableLeftImage" src="medias/showdown.png" alt="showdown">
@@ -109,7 +108,7 @@
                 </div>
                 <br>
 
-                <div id="puppeteer" style="display: flex; flex-wrap: wrap;">
+                <div id="puppeteer" class="thing">
                    
                     <div class="instrument-left">
                         <img class="tableLeftImage" src="medias/puppeteer.png" alt="puppeteer">
@@ -128,7 +127,7 @@
                 </div>
                 <br>
 
-                <div id="supernova" style="display: flex; flex-wrap: wrap;">
+                <div id="supernova" class="thing">
                     
                     <div class="instrument-left">
                         <img class="tableLeftImage" src="medias/supernova.png" alt="Supernova">
@@ -153,7 +152,7 @@
                 </div>
                 <br>
 
-                <div id="mozard" style="display: flex; flex-wrap: wrap;">
+                <div id="mozard" class="thing">
                 
                     <div class="instrument-left">
                         <img class="tableLeftImage" src="medias/mozard.jpg" alt="MozArd">
@@ -166,15 +165,19 @@
                             users, these sounds can be reprogrammed.</p>
                         <p>MozArd is based on <a href='http://sensorium.github.io/Mozzi/'>Mozzi</a> and an <a
                                 href='https://www.arduino.cc/'>Arduino</a> Nano microcontroller. </p>
-                        
+
                         <p>You can build your own from the <a
                                 href="https://github.com/thomasfredericks/Mozard">Git Source Repository</a> </p>
+
+                                <ul>
+                                    <li><a href="https://youtu.be/wlpf26ogcaQ" class="glightbox3">Video Demo</a> </li>
+                                </ul>
                        
                     </div>
                 </div>
                 <br>
 
-                <div id="opsynth" style="display: flex; flex-wrap: wrap;">
+                <div id="opsynth" class="thing">
                     
                     <div class="instrument-left">
                         <img class="tableLeftImage" src="medias/op-synth.png" alt="Op-Synth">
@@ -213,38 +216,6 @@
 
 
 
-
-
-                <script>
-
-                    // https://github.com/biati-digital/glightbox
-
-                    var lightbox = GLightbox({
-                        selector: '.glightbox3',
-                        touchNavigation: true,
-                        loop: false,
-                        autoplayVideos: false,
-                    });
-                    lightbox.on('open', (target) => {
-                        console.log('lightbox opened');
-                    });
-    /*
-                                  var lightboxDescription = GLightbox({
-                                      selector: '.glightbox2'
-                                  });
-                                  */
-                    /*
-                                  var lightboxVideo = GLightbox({
-                                      selector: '.glightbox3'
-                                  });
-                                  */
-
-                    /*
-                                  var lightboxInlineIframe = GLightbox({
-                                      selector: '.glightbox4'
-                                  });
-                                  */
-                </script>
             </div>
            
         </div>
